@@ -1,0 +1,699 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Tataiee.Harif.FileManipulator</name>
+    </assembly>
+    <members>
+        <member name="T:Tataiee.Harif.FileManipulator.FileServiceProvider">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Tataiee.Harif.FileManipulator.FileServiceProvider.SerializeToXmlFile``1(System.String,``0)">
+            <summary>
+            Serializes represented object to xml file
+            </summary>
+            <typeparam name="T">Type of represented object</typeparam>
+            <param name="filename">Name and path of the file</param>
+            <param name="obj">Represented object</param>
+        </member>
+        <member name="M:Tataiee.Harif.FileManipulator.FileServiceProvider.DeserializeFromXmlFile``1(System.String,``0@)">
+            <summary>
+            Deserializes specific object from xml file representing the object
+            </summary>
+            <typeparam name="T">Type of the object</typeparam>
+            <param name="filename">Name and path of the file representing the object</param>
+            <param name="myObject">Object</param>
+        </member>
+        <member name="M:Tataiee.Harif.FileManipulator.FileServiceProvider.ConvertFromOfferedCoursesBasicFormToIntermediateXmlFormat(System.String,System.String)">
+            <summary>
+            Converts from basic form (e.g. html file retrieved from 'Golestan' ) to Intermediate xml format and save it
+            </summary>
+            <param name="inputFile">basic form (e.g. html file retrieved from 'Golestan' )</param>
+            <param name="saveFile">Name and path of the file</param>
+            <returns></returns>
+        </member>
+        <member name="M:Tataiee.Harif.FileManipulator.FileServiceProvider.ReadOfferedCoursesTableRowFromIntermediateXmlFile(System.String,System.Data.DataTable@)">
+            <summary>
+             Read intermediate file and push it to DataTable object (i.e. dt)
+            </summary>
+            <param name="filename">Name and path of the intermediate file</param>
+            <param name="dt">object</param>
+        </member>
+        <member name="M:Tataiee.Harif.FileManipulator.FileServiceProvider.ConvertFromOfferedCoursesIntermediateXmlToIntermediate2XmlFormat(System.String,System.String,System.Boolean)">
+            <summary>
+            Converts Intermediate file to Intermediate2 file and returns a list of 'OfferedCoursesRow' objects
+            </summary>
+            <param name="intermediateFile">Name and path of the intermediate file</param>
+            <param name="saveFile">Name and path of the intermediate2 file</param>
+            <param name="save">Detremines whether you want to save the file or not</param>
+            <returns></returns>
+        </member>
+        <member name="M:Tataiee.Harif.FileManipulator.FileServiceProvider.ConvertFromOfferedCoursesBasicFormToIntermediate2XmlFormatWithSeperatedFiles(System.String,System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="inputFile">Name and path of the basic form file (e.g. html file from 'Golestan')</param>
+            <param name="intermediateSaveFile">Name and path of the intermediate file</param>
+            <param name="intermediate2SaveFile">Name and path of the intermediate2 file</param>
+            <returns></returns>
+        </member>
+        <member name="M:Tataiee.Harif.FileManipulator.FileServiceProvider.ConvertFromOfferedCoursesBasicFormToIntermediate2XmlFormat(System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="inputFile">Name and path of the intermediate file</param>
+            <param name="saveFile">Name and path of the intermediate2 file</param>
+            <returns></returns>
+        </member>
+        <member name="M:Tataiee.Harif.FileManipulator.FileServiceProvider.ConvertFromOfferedCoursesIntermediateFormToGoalVersionXmlFormat(System.String,System.String,System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="inputFile">Name and path of the intermediate file</param>
+            <param name="saveFile">Name and path of the goal version file</param>
+            <param name="save">Detremines whether you want to save the file or not</param>
+            <returns></returns>
+        </member>
+        <member name="M:Tataiee.Harif.FileManipulator.FileServiceProvider.ConvertFromOfferedCoursesIntermediate2FormToGoalVersionXmlFormat(System.String,System.String,System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="inputFile">Name and path of the intermediate2 file</param>
+            <param name="saveFile">Name and path of the goal version file</param>
+            <param name="save">Detremines whether you want to save the file or not</param>
+            <returns></returns>
+        </member>
+        <member name="M:Tataiee.Harif.FileManipulator.FileServiceProvider.ConvertFromOfferedCoursesBasicFormToGoalVersionXmlFormatWithThreeSeperatedFiles(System.String,System.String,System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="inputFile">Name and path of the basic form file (e.g. html file from 'Golestan')</param>
+            <param name="intermediateSaveFile">Name and path of the intermediate file</param>
+            <param name="intermediate2SaveFile">Name and path of the intermediate2 file</param>
+            <param name="saveGoalVersionFile">Name and path of the goal version file</param>
+            <returns></returns>
+        </member>
+        <member name="M:Tataiee.Harif.FileManipulator.FileServiceProvider.ConvertFromOfferedCoursesBasicFormToGoalVersionXmlFormatWithTwoSeperatedFiles(System.String,System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="inputFile">Name and path of the basic form file (e.g. html file from 'Golestan')</param>
+            <param name="intermediateSaveFile">Name and path of the intermediate file</param>
+            <param name="saveGoalVersionFile">Name and path of the goal version file</param>
+            <returns></returns>
+        </member>
+        <member name="M:Tataiee.Harif.FileManipulator.FileServiceProvider.ConvertFromOfferedCoursesBasicFormToGoalVersionXmlFormat(System.String,System.String,System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="inputFile">Name and path of the basic form file (e.g. html file from 'Golestan')</param>
+            <param name="saveFile">Name and path of the goal version file</param>
+            <param name="save">Detremines whether you want to save the file or not</param>
+            <returns></returns>
+        </member>
+        <member name="M:Tataiee.Harif.FileManipulator.FileServiceProvider.MergeMultipleXmlFilesInOne(System.String,System.Boolean,System.String[])">
+            <summary>
+            Merging multiple files with identical types in a file
+            </summary>
+            <param name="saveFile">Name and path of the palce where the merged files should be saved</param>
+            <param name="save">Detremines whether you want to save the file or not</param>
+            <param name="xmlFiles">The files needed to be merged</param>
+            <returns></returns>
+        </member>
+        <member name="M:Tataiee.Harif.FileManipulator.FileServiceProvider.MergeMultipleXmlFilesInOne(System.String,System.String[])">
+            <summary>
+            Merging multiple files with identical types in a file
+            </summary>
+            <param name="saveFile">Name and path of the palce where the merged files should be saved</param>
+            <param name="xmlFiles">The files needed to be merged</param>
+            <returns></returns>
+        </member>
+        <member name="M:Tataiee.Harif.FileManipulator.FileServiceProvider.MergeMultipleXmlFilesInOne(System.String[])">
+            <summary>
+            Merging multiple files with identical types in a file
+            </summary>
+            <param name="xmlFiles">The files needed to be merged</param>
+            <returns></returns>
+        </member>
+        <member name="M:Tataiee.Harif.FileManipulator.FileServiceProvider.MergeMultipleXDocument(System.String,System.Boolean,System.Xml.Linq.XDocument[])">
+            <summary>
+            Merging multiple 'XDocument' objects in a new one
+            </summary>
+            <param name="saveFile">Name and path of the palce where the merged objects should be saved</param>
+            <param name="save">Detremines whether you want to save the file or not</param>
+            <param name="xdocs">The 'XDocument' objects needed to be merged</param>
+            <returns></returns>
+        </member>
+        <member name="M:Tataiee.Harif.FileManipulator.FileServiceProvider.MergeMultipleXDocument(System.String,System.Xml.Linq.XDocument[])">
+            <summary>
+            Merging multiple 'XDocument' objects in a new one
+            </summary>
+            <param name="saveFile">Name and path of the palce where the merged objects should be saved</param>
+            <param name="xdocs">The 'XDocument' objects needed to be merged</param>
+            <returns></returns>
+        </member>
+        <member name="M:Tataiee.Harif.FileManipulator.FileServiceProvider.MergeMultipleXDocument(System.Xml.Linq.XDocument[])">
+            <summary>
+            Merging multiple 'XDocument' objects in a new one
+            </summary>
+            <param name="xdocs">The 'XDocument' objects needed to be merged</param>
+            <returns></returns>
+        </member>
+        <member name="M:Tataiee.Harif.FileManipulator.FileServiceProvider.MergeTwoXDocumnetObjectInOne(System.String,System.Xml.Linq.XDocument,System.Xml.Linq.XDocument,System.Boolean)">
+            <summary>
+            Merging two 'XDocument' objects in a new one
+            </summary>
+            <param name="saveFile">Name and path of the palce where the merged objects should be saved</param>
+            <param name="xdoc1">object 1</param>
+            <param name="xdoc2">object 2</param>
+            <param name="save">Detremines whether you want to save the file or not</param>
+            <returns></returns>
+        </member>
+        <member name="M:Tataiee.Harif.FileManipulator.FileServiceProvider.MergeTwoXDocumnetObjectInOne(System.String,System.Xml.Linq.XDocument,System.Xml.Linq.XDocument)">
+            <summary>
+            Merging two 'XDocument' objects in a new one
+            </summary>
+            <param name="saveFile">Name and path of the palce where the merged objects should be saved</param>
+            <param name="xdoc1">object 1</param>
+            <param name="xdoc2">object 2</param>
+            <returns></returns>
+        </member>
+        <member name="M:Tataiee.Harif.FileManipulator.FileServiceProvider.MergeTwoXDocumnetObjectInOne(System.Xml.Linq.XDocument,System.Xml.Linq.XDocument)">
+            <summary>
+            Merging two 'XDocument' objects in a new one
+            </summary>
+            <param name="xdoc1">object 1</param>
+            <param name="xdoc2">object 2</param>
+            <returns></returns>
+        </member>
+        <member name="M:Tataiee.Harif.FileManipulator.FileServiceProvider.MergeTwoXmlFilesInOne(System.String,System.String,System.String,System.Boolean)">
+            <summary>
+            Merging two files with identical types in a file
+            </summary>
+            <param name="saveFile">Name and path of the palce where the merged objects should be saved</param>
+            <param name="xmlFile1">Name and path of the first input file</param>
+            <param name="xmlFile2">Name and path of the second input file</param>
+            <param name="save">Detremines whether you want to save the file or not</param>
+            <returns></returns>
+        </member>
+        <member name="M:Tataiee.Harif.FileManipulator.FileServiceProvider.MergeTwoXmlFilesInOne(System.String,System.String,System.String)">
+            <summary>
+            Merging two files with identical types in a file
+            </summary>
+            <param name="saveFile">Name and path of the palce where the merged objects should be saved</param>
+            <param name="xmlFile1">Name and path of the first input file</param>
+            <param name="xmlFile2">Name and path of the second input file</param>
+            <returns></returns>
+        </member>
+        <member name="M:Tataiee.Harif.FileManipulator.FileServiceProvider.MergeTwoXmlFilesInOne(System.String,System.String)">
+            <summary>
+            Merging two files with identical types in a file
+            </summary>
+            <param name="xmlFile1">Name and path of the first input file</param>
+            <param name="xmlFile2">Name and path of the second input file</param>
+            <returns></returns>
+        </member>
+        <member name="T:Tataiee.Harif.FileManipulator.Models.AvailableCoursesRow">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Tataiee.Harif.FileManipulator.Models.AvailableCoursesRow.CourseType">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Tataiee.Harif.FileManipulator.Models.AvailableCoursesRow.SubsetType">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Tataiee.Harif.FileManipulator.Models.AvailableCoursesRow.CourseTitle">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Tataiee.Harif.FileManipulator.Models.AvailableCoursesRow.Units">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Tataiee.Harif.FileManipulator.Models.AvailableCoursesRow.Status">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Tataiee.Harif.FileManipulator.Models.AvailableCoursesRow.SpecialType">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:Tataiee.Harif.FileManipulator.Models.AvailableCoursesRow.Prerequisites">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Tataiee.Harif.FileManipulator.Models.AvailableCoursesRow.Requisites">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Tataiee.Harif.FileManipulator.Models.AvailableCoursesRow.MinRequireTerm">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Tataiee.Harif.FileManipulator.Models.AvailableCoursesRow.MinReuireUnits">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Tataiee.Harif.FileManipulator.Models.Status">
+            <summary>
+            Course Status
+            </summary>
+        </member>
+        <member name="F:Tataiee.Harif.FileManipulator.Models.Status.THERORYCAL">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Tataiee.Harif.FileManipulator.Models.Status.PRACTICAL">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="F:Tataiee.Harif.FileManipulator.Models.Status.PRACTICAL_AND_THERORYCAL">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Tataiee.Harif.FileManipulator.Models.Status.NAN">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Tataiee.Harif.FileManipulator.Models.SpecialType">
+            <summary>
+            LABORATORY/WORKSHOP/NAN
+            </summary>
+        </member>
+        <member name="F:Tataiee.Harif.FileManipulator.Models.SpecialType.LABORATORY">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Tataiee.Harif.FileManipulator.Models.SpecialType.WORKSHOP">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Tataiee.Harif.FileManipulator.Models.SpecialType.NAN">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Tataiee.Harif.FileManipulator.Models.UserHistory">
+            <summary>
+            A record of UserHistory
+            </summary>
+        </member>
+        <member name="P:Tataiee.Harif.FileManipulator.Models.UserHistory.TermNumber">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Tataiee.Harif.FileManipulator.Models.UserHistory.SemesterStatus">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Tataiee.Harif.FileManipulator.Models.UserHistory.CourseName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Tataiee.Harif.FileManipulator.Models.UserHistory.Status">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Tataiee.Harif.FileManipulator.Models.UserHistory.Grade">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Tataiee.Harif.FileManipulator.Models.SemesterStatus">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Tataiee.Harif.FileManipulator.Models.SemesterStatus.SEMESTER1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Tataiee.Harif.FileManipulator.Models.SemesterStatus.SEMESTER2">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Tataiee.Harif.FileManipulator.Models.SemesterStatus.SUMMER">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Tataiee.Harif.FileManipulator.Models.CourseStatusHisotry">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Tataiee.Harif.FileManipulator.Models.CourseStatusHisotry.PASSED">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Tataiee.Harif.FileManipulator.Models.CourseStatusHisotry.FAILED">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Tataiee.Harif.FileManipulator.Models.CourseStatusHisotry.REMOVED">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Tataiee.Harif.FileManipulator.Models.CourseStatusHisotry.NAN">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Tataiee.Harif.FileManipulator.Models.GoalVersionOfferedCoursesRow">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Tataiee.Harif.FileManipulator.Models.GoalVersionOfferedCoursesRow.TimeAndSitesAndExam">
+            <summary>
+            زمان و مکان و ارائه بصورت پردازش شده
+            </summary>
+        </member>
+        <member name="T:Tataiee.Harif.FileManipulator.Models.OfferedCoursesRow">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Tataiee.Harif.FileManipulator.Models.OfferedCoursesRow.DepartmentId">
+            <summary>
+            کد دانشکده
+            </summary>
+        </member>
+        <member name="P:Tataiee.Harif.FileManipulator.Models.OfferedCoursesRow.DepartmentName">
+             <summary>
+            نام دانشکده
+             </summary>
+        </member>
+        <member name="P:Tataiee.Harif.FileManipulator.Models.OfferedCoursesRow.EducationalGroupId">
+            <summary>
+            کد گروه آموزشی
+            </summary>
+        </member>
+        <member name="P:Tataiee.Harif.FileManipulator.Models.OfferedCoursesRow.EducationalGroupName">
+            <summary>
+            نام گروه آموزشی
+            </summary>
+        </member>
+        <member name="P:Tataiee.Harif.FileManipulator.Models.OfferedCoursesRow.Id">
+            <summary>
+            شماره و گروه درس
+            </summary>
+        </member>
+        <member name="P:Tataiee.Harif.FileManipulator.Models.OfferedCoursesRow.CourseTitle">
+            <summary>
+            عنوان درس
+            </summary>
+        </member>
+        <member name="P:Tataiee.Harif.FileManipulator.Models.OfferedCoursesRow.Units">
+             <summary>
+             //کل
+            واحد درس
+             </summary>
+        </member>
+        <member name="P:Tataiee.Harif.FileManipulator.Models.OfferedCoursesRow.Status">
+            <summary>
+            آیا درس عملی است یا تئوری
+            </summary>
+        </member>
+        <member name="P:Tataiee.Harif.FileManipulator.Models.OfferedCoursesRow.Capacity">
+            <summary>
+            ظرفیت
+            </summary>
+        </member>
+        <member name="P:Tataiee.Harif.FileManipulator.Models.OfferedCoursesRow.Registered">
+            <summary>
+            تعداد ثبت نام شده
+            </summary>
+        </member>
+        <member name="P:Tataiee.Harif.FileManipulator.Models.OfferedCoursesRow.InWaitingList">
+            <summary>
+            تعداد لیست انتظار
+            </summary>
+        </member>
+        <member name="P:Tataiee.Harif.FileManipulator.Models.OfferedCoursesRow.Gender">
+            <summary>
+            جنسیت
+            </summary>
+        </member>
+        <member name="P:Tataiee.Harif.FileManipulator.Models.OfferedCoursesRow.ProfessorName">
+            <summary>
+            نام استاد
+            </summary>
+        </member>
+        <member name="P:Tataiee.Harif.FileManipulator.Models.OfferedCoursesRow.RawStringTimeAndSitesAndExam">
+            <summary>
+            زمان و مکان و ارائه بصورت رشته خام
+            </summary>
+        </member>
+        <member name="P:Tataiee.Harif.FileManipulator.Models.OfferedCoursesRow.Description">
+            <summary>
+            توضیحات
+            </summary>
+        </member>
+        <member name="T:Tataiee.Harif.FileManipulator.Models.TimeAndSiteAndExams">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Tataiee.Harif.FileManipulator.Models.TimeAndSiteAndExams.TimeAndSites">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Tataiee.Harif.FileManipulator.Models.TimeAndSiteAndExams.Exam">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Tataiee.Harif.FileManipulator.Models.Exam">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Tataiee.Harif.FileManipulator.Models.Exam.StartTime">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Tataiee.Harif.FileManipulator.Models.Exam.FinishTime">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Tataiee.Harif.FileManipulator.Models.Exam.Date">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Tataiee.Harif.FileManipulator.Models.TimeAndSite">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Tataiee.Harif.FileManipulator.Models.TimeAndSite.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Tataiee.Harif.FileManipulator.Models.TimeAndSite.StartTime">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Tataiee.Harif.FileManipulator.Models.TimeAndSite.FinishTime">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Tataiee.Harif.FileManipulator.Models.TimeAndSite.Site">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Tataiee.Harif.FileManipulator.Models.TimeAndSite.Day">
+            <summary>
+            شنبه 0ویک شنبه 1و دو شنبه 3 و...و جمعه 6
+            </summary>
+        </member>
+        <member name="T:Tataiee.Harif.FileManipulator.Models.Day">
+             <summary>
+             0-شنبه=Saturday 
+            ,1-يكشنبه=Sunday 
+            ,2-دوشنبه=Monday 
+            ,3-سه شنبه=Tuesday 
+            ,4-چهارشنبه=Wednesday 
+            ,5-پنچشنبه=Thursday 
+            ,6-جمعه=Friday
+             </summary>
+        </member>
+        <member name="F:Tataiee.Harif.FileManipulator.Models.Day.NAN">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Tataiee.Harif.FileManipulator.Models.Day.SATURDAY">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Tataiee.Harif.FileManipulator.Models.Day.SUNDAY">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Tataiee.Harif.FileManipulator.Models.Day.MONDAY">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Tataiee.Harif.FileManipulator.Models.Day.TUESDAY">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Tataiee.Harif.FileManipulator.Models.Day.WEDNESDAY">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Tataiee.Harif.FileManipulator.Models.Day.THURSDAY">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Tataiee.Harif.FileManipulator.Models.Day.FRIDAY">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Tataiee.Harif.FileManipulator.Models.LocalTime">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Tataiee.Harif.FileManipulator.Models.LocalTime.Hour">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Tataiee.Harif.FileManipulator.Models.LocalTime.Minute">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Tataiee.Harif.FileManipulator.Models.LocalSite">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Tataiee.Harif.FileManipulator.Models.LocalSite.RawStringSiteValue">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Tataiee.Harif.FileManipulator.Models.LocalDate">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Tataiee.Harif.FileManipulator.Models.LocalDate.Year">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Tataiee.Harif.FileManipulator.Models.LocalDate.Month">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Tataiee.Harif.FileManipulator.Models.LocalDate.Day">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Tataiee.Harif.FileManipulator.Models.Gender">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Tataiee.Harif.FileManipulator.Models.Gender.COEDUCATIONAL">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Tataiee.Harif.FileManipulator.Models.Gender.MALE">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Tataiee.Harif.FileManipulator.Models.Gender.FEMALE">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Tataiee.Harif.FileManipulator.Models.Gender.TRANSSEXUAL">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Tataiee.Harif.FileManipulator.Models.Gender.NAN">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Tataiee.Harif.FileManipulator.TimeAndSitesAndExamParser">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Tataiee.Harif.FileManipulator.TimeAndSitesAndExamParser.Parse(System.Collections.Generic.List{System.String})">
+            <summary>
+            
+            </summary>
+            <param name="tokens"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Tataiee.Harif.FileManipulator.TimeAndSitesAndExamTokenizer">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Tataiee.Harif.FileManipulator.TimeAndSitesAndExamTokenizer.Tokenize(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="source"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
