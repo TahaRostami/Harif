@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfUserHistory xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <UserHistory>
+    <TermNumber>1</TermNumber>
+	<SemesterStatus>SEMESTER1</SemesterStatus>
+    <CourseName>اندیشه اسلامی</CourseName>
+    <Status>PASSED</Status>
+    <Grade>20</Grade>
+  </UserHistory>
+  <UserHistory>
+    <TermNumber>1</TermNumber>
+	<SemesterStatus>SEMESTER1</SemesterStatus>
+    <CourseName>زبان انگلیسی</CourseName>
+    <Status>PASSED</Status>
+    <Grade>10</Grade>
+  </UserHistory>
+  <UserHistory>
+    <TermNumber>1</TermNumber>
+	<SemesterStatus>SEMESTER1</SemesterStatus>
+    <CourseName>تربیت بدنی 1</CourseName>
+    <Status>PASSED</Status>
+    <Grade>17</Grade>
+  </UserHistory>
+  <UserHistory>
+    <TermNumber>1</TermNumber>
+	<SemesterStatus>SEMESTER1</SemesterStatus>
+    <CourseName>ریاضی عمومی 1</CourseName>
+    <Status>PASSED</Status>
+    <Grade>17.3</Grade>
+  </UserHistory>
+  <UserHistory>
+    <TermNumber>1</TermNumber>
+	<SemesterStatus>SEMESTER1</SemesterStatus>
+    <CourseName>فیزیک 1</CourseName>
+    <Status>PASSED</Status>
+    <Grade>16.5</Grade>
+  </UserHistory>
+  <UserHistory>
+    <TermNumber>1</TermNumber>
+	<SemesterStatus>SEMESTER1</SemesterStatus>
+    <CourseName>مبانی کامپیوتر و برنامه سازی</CourseName>
+    <Status>PASSED</Status>
+    <Grade>18</Grade>
+  </UserHistory>
+  <UserHistory>
+    <TermNumber>2</TermNumber>
+	<SemesterStatus>SEMESTER2</SemesterStatus>
+    <CourseName>اندیشه اسلامی 2</CourseName>
+    <Status>PASSED</Status>
+    <Grade>20</Grade>
+  </UserHistory>
+  <UserHistory>
+    <TermNumber>2</TermNumber>
+	<SemesterStatus>SEMESTER2</SemesterStatus>
+    <CourseName>زبان فارسی</CourseName>
+    <Status>PASSED</Status>
+    <Grade>19</Grade>
+  </UserHistory>
+  <UserHistory>
+    <TermNumber>2</TermNumber>
+	<SemesterStatus>SEMESTER2</SemesterStatus>
+    <CourseName>ریاضی عمومی 2</CourseName>
+    <Status>PASSED</Status>
+    <Grade>16</Grade>
+  </UserHistory>
+  <UserHistory>
+    <TermNumber>2</TermNumber>
+	<SemesterStatus>SEMESTER2</SemesterStatus>
+    <CourseName>فیزیک 2</CourseName>
+    <Status>PASSED</Status>
+    <Grade>14.5</Grade>
+  </UserHistory>
+  <UserHistory>
+    <TermNumber>2</TermNumber>
+	<SemesterStatus>SEMESTER2</SemesterStatus>
+    <CourseName>کارگاه کامپیوتر</CourseName>
+    <Status>PASSED</Status>
+    <Grade>14</Grade>
+  </UserHistory>
+  <UserHistory>
+    <TermNumber>2</TermNumber>
+	<SemesterStatus>SEMESTER2</SemesterStatus>
+    <CourseName>ریاضیات گسسته</CourseName>
+    <Status>REMOVED</Status>
+    <Grade>0</Grade>
+  </UserHistory>
+  <UserHistory>
+    <TermNumber>2</TermNumber>
+	<SemesterStatus>SEMESTER2</SemesterStatus>
+    <CourseName>برنامه سازی پیشرفته</CourseName>
+    <Status>PASSED</Status>
+    <Grade>20</Grade>
+  </UserHistory>
+    <UserHistory>
+    <TermNumber>2</TermNumber>
+	<SemesterStatus>SUMMER</SemesterStatus>
+    <CourseName>معادلات دیفرانسیل</CourseName>
+    <Status>PASSED</Status>
+    <Grade>19.5</Grade>
+  </UserHistory>
+</ArrayOfUserHistory>
