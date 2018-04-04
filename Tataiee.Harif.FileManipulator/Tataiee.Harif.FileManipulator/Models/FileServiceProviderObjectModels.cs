@@ -6,11 +6,38 @@ using System.Threading.Tasks;
 
 namespace Tataiee.Harif.FileManipulator.Models
 {
+
     /// <summary>
     /// 
     /// </summary>
     public class AvailableCoursesRow
     {
+        /// <summary>
+        /// گروه
+        /// به عنوان مثال فنی و مهندسی
+        /// </summary>
+        public string Group { get; set; }
+
+
+        /// <summary>
+        /// کمیته تخصصی
+        /// به عنوان مثال مهندسی برق
+        /// </summary>
+        public string SpecializedCommittee { get; set; }
+
+        /// <summary>
+        /// رشته
+        /// به عنوان مثال مهندسی  برق،مهندسی کامپیوتر و غیره
+        /// </summary>
+        public string FieldTitle { get; set; }
+
+
+        /// <summary>
+        /// مقطع تحصیلی
+        /// بعنوان مثال کارشناسی
+        /// </summary>
+        public string Degree { get; set; }
+
         /// <summary>
         /// 
         /// </summary>
@@ -50,7 +77,7 @@ namespace Tataiee.Harif.FileManipulator.Models
         /// <summary>
         /// 
         /// </summary>
-        public int MinReuireUnits { get; set; }
+        public int MinRequireUnits { get; set; }
     }
     /// <summary>
     /// Course Status

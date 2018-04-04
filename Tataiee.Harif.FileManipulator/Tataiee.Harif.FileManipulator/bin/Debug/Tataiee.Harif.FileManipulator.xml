@@ -219,6 +219,30 @@
             
             </summary>
         </member>
+        <member name="P:Tataiee.Harif.FileManipulator.Models.AvailableCoursesRow.Group">
+            <summary>
+            گروه
+            به عنوان مثال فنی و مهندسی
+            </summary>
+        </member>
+        <member name="P:Tataiee.Harif.FileManipulator.Models.AvailableCoursesRow.SpecializedCommittee">
+            <summary>
+            کمیته تخصصی
+            به عنوان مثال مهندسی برق
+            </summary>
+        </member>
+        <member name="P:Tataiee.Harif.FileManipulator.Models.AvailableCoursesRow.FieldTitle">
+            <summary>
+            رشته
+            به عنوان مثال مهندسی  برق،مهندسی کامپیوتر و غیره
+            </summary>
+        </member>
+        <member name="P:Tataiee.Harif.FileManipulator.Models.AvailableCoursesRow.Degree">
+            <summary>
+            مقطع تحصیلی
+            بعنوان مثال کارشناسی
+            </summary>
+        </member>
         <member name="P:Tataiee.Harif.FileManipulator.Models.AvailableCoursesRow.CourseType">
             <summary>
             
@@ -264,7 +288,7 @@
             
             </summary>
         </member>
-        <member name="P:Tataiee.Harif.FileManipulator.Models.AvailableCoursesRow.MinReuireUnits">
+        <member name="P:Tataiee.Harif.FileManipulator.Models.AvailableCoursesRow.MinRequireUnits">
             <summary>
             
             </summary>

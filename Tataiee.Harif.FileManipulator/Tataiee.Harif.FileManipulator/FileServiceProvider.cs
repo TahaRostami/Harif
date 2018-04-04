@@ -22,7 +22,7 @@ namespace Tataiee.Harif.FileManipulator
         /// <typeparam name="T">Type of represented object</typeparam>
         /// <param name="filename">Name and path of the file</param>
         /// <param name="obj">Represented object</param>
-        public void SerializeToXmlFile<T>(string filename, T obj)
+        public static void SerializeToXmlFile<T>(string filename, T obj)
         {
             // Insert code to set properties and fields of the object.  
             XmlSerializer mySerializer = new
@@ -38,7 +38,7 @@ namespace Tataiee.Harif.FileManipulator
         /// <typeparam name="T">Type of the object</typeparam>
         /// <param name="filename">Name and path of the file representing the object</param>
         /// <param name="myObject">Object</param>
-        public void DeserializeFromXmlFile<T>(string filename, out T myObject)
+        public static void DeserializeFromXmlFile<T>(string filename, out T myObject)
         {
             // Construct an instance of the XmlSerializer with the type  
             // of object that is being deserialized.  
@@ -59,7 +59,7 @@ namespace Tataiee.Harif.FileManipulator
         /// <param name="inputFile">basic form (e.g. html file retrieved from 'Golestan' )</param>
         /// <param name="saveFile">Name and path of the file</param>
         /// <returns></returns>
-        public string ConvertFromOfferedCoursesBasicFormToIntermediateXmlFormat(string inputFile, string saveFile)
+        public static string ConvertFromOfferedCoursesBasicFormToIntermediateXmlFormat(string inputFile, string saveFile)
         {
             if (inputFile == null)
             {
@@ -105,7 +105,7 @@ namespace Tataiee.Harif.FileManipulator
         /// </summary>
         /// <param name="filename">Name and path of the intermediate file</param>
         /// <param name="dt">object</param>
-        public void ReadOfferedCoursesTableRowFromIntermediateXmlFile(string filename, out DataTable dt)
+        public static void ReadOfferedCoursesTableRowFromIntermediateXmlFile(string filename, out DataTable dt)
         {
             XDocument doc = XDocument.Load(filename);
 
@@ -145,7 +145,7 @@ namespace Tataiee.Harif.FileManipulator
         /// <param name="saveFile">Name and path of the intermediate2 file</param>
         /// <param name="save">Detremines whether you want to save the file or not</param>
         /// <returns></returns>
-        public List<OfferedCoursesRow> ConvertFromOfferedCoursesIntermediateXmlToIntermediate2XmlFormat(string intermediateFile, string saveFile, bool save = true)
+        public static List<OfferedCoursesRow> ConvertFromOfferedCoursesIntermediateXmlToIntermediate2XmlFormat(string intermediateFile, string saveFile, bool save = true)
         {
             List<OfferedCoursesRow> ocr = new List<OfferedCoursesRow>();
 
@@ -191,7 +191,7 @@ namespace Tataiee.Harif.FileManipulator
         /// <param name="intermediateSaveFile">Name and path of the intermediate file</param>
         /// <param name="intermediate2SaveFile">Name and path of the intermediate2 file</param>
         /// <returns></returns>
-        public List<OfferedCoursesRow> ConvertFromOfferedCoursesBasicFormToIntermediate2XmlFormatWithSeperatedFiles(string inputFile, string intermediateSaveFile, string intermediate2SaveFile)
+        public static List<OfferedCoursesRow> ConvertFromOfferedCoursesBasicFormToIntermediate2XmlFormatWithSeperatedFiles(string inputFile, string intermediateSaveFile, string intermediate2SaveFile)
         {
             ConvertFromOfferedCoursesBasicFormToIntermediateXmlFormat(inputFile, intermediateSaveFile);
             return ConvertFromOfferedCoursesIntermediateXmlToIntermediate2XmlFormat(intermediateSaveFile, intermediate2SaveFile);
@@ -203,7 +203,7 @@ namespace Tataiee.Harif.FileManipulator
         /// <param name="inputFile">Name and path of the intermediate file</param>
         /// <param name="saveFile">Name and path of the intermediate2 file</param>
         /// <returns></returns>
-        public List<OfferedCoursesRow> ConvertFromOfferedCoursesBasicFormToIntermediate2XmlFormat(string inputFile, string saveFile)
+        public static List<OfferedCoursesRow> ConvertFromOfferedCoursesBasicFormToIntermediate2XmlFormat(string inputFile, string saveFile)
         {
             return ConvertFromOfferedCoursesBasicFormToIntermediate2XmlFormatWithSeperatedFiles(inputFile, saveFile, saveFile);
         }
@@ -215,7 +215,7 @@ namespace Tataiee.Harif.FileManipulator
         /// <param name="saveFile">Name and path of the goal version file</param>
         /// <param name="save">Detremines whether you want to save the file or not</param>
         /// <returns></returns>
-        public List<GoalVersionOfferedCoursesRow> ConvertFromOfferedCoursesIntermediateFormToGoalVersionXmlFormat(string inputFile, string saveFile, bool save = true)
+        public static List<GoalVersionOfferedCoursesRow> ConvertFromOfferedCoursesIntermediateFormToGoalVersionXmlFormat(string inputFile, string saveFile, bool save = true)
         {
             List<GoalVersionOfferedCoursesRow> ocr = new List<GoalVersionOfferedCoursesRow>();
 
@@ -261,7 +261,7 @@ namespace Tataiee.Harif.FileManipulator
         /// <param name="saveFile">Name and path of the goal version file</param>
         /// <param name="save">Detremines whether you want to save the file or not</param>
         /// <returns></returns>
-        public List<GoalVersionOfferedCoursesRow> ConvertFromOfferedCoursesIntermediate2FormToGoalVersionXmlFormat(string inputFile, string saveFile, bool save = true)
+        public static List<GoalVersionOfferedCoursesRow> ConvertFromOfferedCoursesIntermediate2FormToGoalVersionXmlFormat(string inputFile, string saveFile, bool save = true)
         {
             List<OfferedCoursesRow> ocr1;
             DeserializeFromXmlFile(inputFile, out ocr1);
@@ -309,7 +309,7 @@ namespace Tataiee.Harif.FileManipulator
         /// <param name="intermediate2SaveFile">Name and path of the intermediate2 file</param>
         /// <param name="saveGoalVersionFile">Name and path of the goal version file</param>
         /// <returns></returns>
-        public List<GoalVersionOfferedCoursesRow> ConvertFromOfferedCoursesBasicFormToGoalVersionXmlFormatWithThreeSeperatedFiles(string inputFile, string intermediateSaveFile, string intermediate2SaveFile, string saveGoalVersionFile)
+        public static List<GoalVersionOfferedCoursesRow> ConvertFromOfferedCoursesBasicFormToGoalVersionXmlFormatWithThreeSeperatedFiles(string inputFile, string intermediateSaveFile, string intermediate2SaveFile, string saveGoalVersionFile)
         {
             ConvertFromOfferedCoursesBasicFormToIntermediateXmlFormat(inputFile, intermediateSaveFile);
             ConvertFromOfferedCoursesIntermediateXmlToIntermediate2XmlFormat(intermediateSaveFile, intermediate2SaveFile, true);
@@ -322,7 +322,7 @@ namespace Tataiee.Harif.FileManipulator
         /// <param name="intermediateSaveFile">Name and path of the intermediate file</param>
         /// <param name="saveGoalVersionFile">Name and path of the goal version file</param>
         /// <returns></returns>
-        public List<GoalVersionOfferedCoursesRow> ConvertFromOfferedCoursesBasicFormToGoalVersionXmlFormatWithTwoSeperatedFiles(string inputFile, string intermediateSaveFile, string saveGoalVersionFile)
+        public static List<GoalVersionOfferedCoursesRow> ConvertFromOfferedCoursesBasicFormToGoalVersionXmlFormatWithTwoSeperatedFiles(string inputFile, string intermediateSaveFile, string saveGoalVersionFile)
         {
             ConvertFromOfferedCoursesBasicFormToIntermediateXmlFormat(inputFile, intermediateSaveFile);
             return ConvertFromOfferedCoursesIntermediateFormToGoalVersionXmlFormat(intermediateSaveFile, saveGoalVersionFile, true);
@@ -334,7 +334,7 @@ namespace Tataiee.Harif.FileManipulator
         /// <param name="saveFile">Name and path of the goal version file</param>
         /// <param name="save">Detremines whether you want to save the file or not</param>
         /// <returns></returns>
-        public List<GoalVersionOfferedCoursesRow> ConvertFromOfferedCoursesBasicFormToGoalVersionXmlFormat(string inputFile, string saveFile, bool save = true)
+        public static List<GoalVersionOfferedCoursesRow> ConvertFromOfferedCoursesBasicFormToGoalVersionXmlFormat(string inputFile, string saveFile, bool save = true)
         {
             ConvertFromOfferedCoursesBasicFormToIntermediateXmlFormat(inputFile, saveFile);
             return ConvertFromOfferedCoursesIntermediateFormToGoalVersionXmlFormat(saveFile, saveFile, save);
@@ -348,7 +348,7 @@ namespace Tataiee.Harif.FileManipulator
         /// <param name="save">Detremines whether you want to save the file or not</param>
         /// <param name="xmlFiles">The files needed to be merged</param>
         /// <returns></returns>
-        public XDocument MergeMultipleXmlFilesInOne(string saveFile, bool save, params string[] xmlFiles)
+        public static XDocument MergeMultipleXmlFilesInOne(string saveFile, bool save, params string[] xmlFiles)
         {
             if (xmlFiles == null) throw new ArgumentNullException();
             XDocument xf = XDocument.Load(xmlFiles[0]);
@@ -376,7 +376,7 @@ namespace Tataiee.Harif.FileManipulator
         /// <param name="saveFile">Name and path of the palce where the merged files should be saved</param>
         /// <param name="xmlFiles">The files needed to be merged</param>
         /// <returns></returns>
-        public XDocument MergeMultipleXmlFilesInOne(string saveFile, params string[] xmlFiles)
+        public static XDocument MergeMultipleXmlFilesInOne(string saveFile, params string[] xmlFiles)
         {
             return MergeMultipleXmlFilesInOne(saveFile, true, xmlFiles);
         }
@@ -385,7 +385,7 @@ namespace Tataiee.Harif.FileManipulator
         /// </summary>
         /// <param name="xmlFiles">The files needed to be merged</param>
         /// <returns></returns>
-        public XDocument MergeMultipleXmlFilesInOne(params string[] xmlFiles)
+        public static XDocument MergeMultipleXmlFilesInOne(params string[] xmlFiles)
         {
             return MergeMultipleXmlFilesInOne("empty", false, xmlFiles);
         }
@@ -397,7 +397,7 @@ namespace Tataiee.Harif.FileManipulator
         /// <param name="save">Detremines whether you want to save the file or not</param>
         /// <param name="xdocs">The 'XDocument' objects needed to be merged</param>
         /// <returns></returns>
-        public XDocument MergeMultipleXDocument(string saveFile, bool save, params XDocument[] xdocs)
+        public static XDocument MergeMultipleXDocument(string saveFile, bool save, params XDocument[] xdocs)
         {
             if (xdocs == null) throw new ArgumentNullException();
 
@@ -424,7 +424,7 @@ namespace Tataiee.Harif.FileManipulator
         /// <param name="saveFile">Name and path of the palce where the merged objects should be saved</param>
         /// <param name="xdocs">The 'XDocument' objects needed to be merged</param>
         /// <returns></returns>
-        public XDocument MergeMultipleXDocument(string saveFile, params XDocument[] xdocs)
+        public static XDocument MergeMultipleXDocument(string saveFile, params XDocument[] xdocs)
         {
             return MergeMultipleXDocument(saveFile, true, xdocs);
         }
@@ -433,7 +433,7 @@ namespace Tataiee.Harif.FileManipulator
         /// </summary>
         /// <param name="xdocs">The 'XDocument' objects needed to be merged</param>
         /// <returns></returns>
-        public XDocument MergeMultipleXDocument(params XDocument[] xdocs)
+        public static XDocument MergeMultipleXDocument(params XDocument[] xdocs)
         {
             return MergeMultipleXDocument("empty", false, xdocs);
         }
@@ -446,7 +446,7 @@ namespace Tataiee.Harif.FileManipulator
         /// <param name="xdoc2">object 2</param>
         /// <param name="save">Detremines whether you want to save the file or not</param>
         /// <returns></returns>
-        public XDocument MergeTwoXDocumnetObjectInOne(string saveFile, XDocument xdoc1, XDocument xdoc2, bool save = false)
+        public static XDocument MergeTwoXDocumnetObjectInOne(string saveFile, XDocument xdoc1, XDocument xdoc2, bool save = false)
         {
             if (xdoc1 == null || xdoc2 == null) throw new ArgumentNullException();
             XDocument xdoc3 = new XDocument(xdoc1);
@@ -465,7 +465,7 @@ namespace Tataiee.Harif.FileManipulator
         /// <param name="xdoc1">object 1</param>
         /// <param name="xdoc2">object 2</param>
         /// <returns></returns>
-        public XDocument MergeTwoXDocumnetObjectInOne(string saveFile, XDocument xdoc1, XDocument xdoc2)
+        public static XDocument MergeTwoXDocumnetObjectInOne(string saveFile, XDocument xdoc1, XDocument xdoc2)
         {
             return MergeTwoXDocumnetObjectInOne(saveFile, xdoc1, xdoc2, true);
         }
@@ -475,7 +475,7 @@ namespace Tataiee.Harif.FileManipulator
         /// <param name="xdoc1">object 1</param>
         /// <param name="xdoc2">object 2</param>
         /// <returns></returns>
-        public XDocument MergeTwoXDocumnetObjectInOne(XDocument xdoc1, XDocument xdoc2)
+        public static XDocument MergeTwoXDocumnetObjectInOne(XDocument xdoc1, XDocument xdoc2)
         {
             return MergeTwoXDocumnetObjectInOne("empty", xdoc1, xdoc2, false);
         }
@@ -488,7 +488,7 @@ namespace Tataiee.Harif.FileManipulator
         /// <param name="xmlFile2">Name and path of the second input file</param>
         /// <param name="save">Detremines whether you want to save the file or not</param>
         /// <returns></returns>
-        public XDocument MergeTwoXmlFilesInOne(string saveFile, string xmlFile1, string xmlFile2, bool save = true)
+        public static XDocument MergeTwoXmlFilesInOne(string saveFile, string xmlFile1, string xmlFile2, bool save = true)
         {
             XDocument xdoc1 = XDocument.Load(xmlFile1);
             XDocument xdoc2 = XDocument.Load(xmlFile2);
@@ -501,7 +501,7 @@ namespace Tataiee.Harif.FileManipulator
         /// <param name="xmlFile1">Name and path of the first input file</param>
         /// <param name="xmlFile2">Name and path of the second input file</param>
         /// <returns></returns>
-        public XDocument MergeTwoXmlFilesInOne(string saveFile, string xmlFile1, string xmlFile2)
+        public static XDocument MergeTwoXmlFilesInOne(string saveFile, string xmlFile1, string xmlFile2)
         {
             return MergeTwoXmlFilesInOne(saveFile, xmlFile1, xmlFile2, true);
         }
@@ -511,8 +511,8 @@ namespace Tataiee.Harif.FileManipulator
         /// <param name="xmlFile1">Name and path of the first input file</param>
         /// <param name="xmlFile2">Name and path of the second input file</param>
         /// <returns></returns>
-        public XDocument MergeTwoXmlFilesInOne(string xmlFile1, string xmlFile2)
-        {
+        public static XDocument MergeTwoXmlFilesInOne(string xmlFile1, string xmlFile2)
+        {            
             return MergeTwoXmlFilesInOne("empty", xmlFile1, xmlFile2, false);
         }
 
