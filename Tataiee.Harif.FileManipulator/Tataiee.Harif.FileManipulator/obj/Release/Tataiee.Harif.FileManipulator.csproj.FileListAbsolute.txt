@@ -1,5 +1,0 @@
-E:\Computer\T2\Github\Harif\Tataiee.Harif.FileManipulator\Tataiee.Harif.FileManipulator\bin\Release\Tataiee.Harif.FileManipulator.dll
-E:\Computer\T2\Github\Harif\Tataiee.Harif.FileManipulator\Tataiee.Harif.FileManipulator\bin\Release\Tataiee.Harif.FileManipulator.pdb
-E:\Computer\T2\Github\Harif\Tataiee.Harif.FileManipulator\Tataiee.Harif.FileManipulator\obj\Release\Tataiee.Harif.FileManipulator.csproj.CoreCompileInputs.cache
-E:\Computer\T2\Github\Harif\Tataiee.Harif.FileManipulator\Tataiee.Harif.FileManipulator\obj\Release\Tataiee.Harif.FileManipulator.dll
-E:\Computer\T2\Github\Harif\Tataiee.Harif.FileManipulator\Tataiee.Harif.FileManipulator\obj\Release\Tataiee.Harif.FileManipulator.pdb
