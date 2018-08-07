@@ -1,0 +1,40 @@
+﻿<UserControl x:Class="Tataiee.Harif.WpfApplication.UcWeeklyProgram"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Tataiee.Harif.WpfApplication"
+             mc:Ignorable="d"                          
+             d:DesignHeight="300" d:DesignWidth="300"
+             
+              xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        TextElement.FontWeight="Regular"
+        TextElement.FontSize="13"
+        TextOptions.TextFormattingMode="Ideal" 
+        TextOptions.TextRenderingMode="Auto"        
+        Background="Transparent"
+        FontFamily="{DynamicResource MaterialDesignFont}"
+             >
+    <DockPanel>
+        <WrapPanel DockPanel.Dock="Top"  Name="wrapPanelMenu" Orientation="Horizontal"  FlowDirection="RightToLeft" Margin="0,5,0,5">
+            <Button Name="btnTab1" FontSize="13" Click="btnTab_Click" Background="Transparent" BorderThickness="0,0,0,1" BorderBrush="Black" Margin="3,0,35,0" Padding="4" Cursor="Hand"  FlowDirection="LeftToRight">نمایش جدولی</Button>
+            <Button Name="btnTab2" FontSize="13" Click="btnTab_Click" Background="Transparent" BorderThickness="0,0,0,0" BorderBrush="Black" Margin="3,0,35,0" Padding="4" Cursor="Hand"  FlowDirection="LeftToRight">لیست دروس</Button>
+        </WrapPanel>
+        <StackPanel Name="PanelMain">
+
+            <StackPanel Name="stackPanelTab1">
+                <Canvas Name="canvas" FlowDirection="RightToLeft">
+
+                </Canvas>
+            </StackPanel>
+
+            <StackPanel Name="stackPanelTab2" Visibility="Collapsed">
+                <DataGrid Background="Transparent" x:Name="dataGridInfo" Margin="0 35 0 0" FlowDirection="RightToLeft" VerticalAlignment="Center" HorizontalAlignment="Stretch"  CanUserResizeColumns="False"  VerticalScrollBarVisibility="Auto"  HorizontalScrollBarVisibility="Auto" CanUserDeleteRows="False" CanUserAddRows="False" CanUserReorderColumns="False" CanUserResizeRows="False" CanUserSortColumns="False">
+
+                </DataGrid>
+
+            </StackPanel>
+        </StackPanel>
+    </DockPanel>
+</UserControl>
