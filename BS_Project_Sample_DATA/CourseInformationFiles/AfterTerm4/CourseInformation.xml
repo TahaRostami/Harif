@@ -1,0 +1,1115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfCourseInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CourseInformation>
+    <Id>0</Id>
+    <Title>انديشه اسلامي يك - مبدا ومعاد</Title>
+    <CorrespondingTitleInDesUni>انديشه اسلامي يك - مبدا ومعاد</CorrespondingTitleInDesUni>
+    <CodeInDesUni>1611001</CodeInDesUni>
+    <IsPassed>true</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>1</Id>
+    <Title>انديشه اسلامي دو - مبدا ومعاد</Title>
+    <CorrespondingTitleInDesUni>انديشه اسلامي دو - مبدا ومعاد</CorrespondingTitleInDesUni>
+    <CodeInDesUni>1611002</CodeInDesUni>
+    <IsPassed>true</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>2</Id>
+    <Title>انسان در اسلام</Title>
+    <CorrespondingTitleInDesUni>انسان در اسلام</CorrespondingTitleInDesUni>
+    <CodeInDesUni>-</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>3</Id>
+    <Title>حقوق اجتماعی و سیاسی در اسلام</Title>
+    <CorrespondingTitleInDesUni>حقوق اجتماعی و سیاسی در اسلام</CorrespondingTitleInDesUni>
+    <CodeInDesUni>-</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>4</Id>
+    <Title>فلسفه اخلاق</Title>
+    <CorrespondingTitleInDesUni>فلسفه اخلاق</CorrespondingTitleInDesUni>
+    <CodeInDesUni>-</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>5</Id>
+    <Title>اخلاق اسلامی</Title>
+    <CorrespondingTitleInDesUni>اخلاق اسلامی</CorrespondingTitleInDesUni>
+    <CodeInDesUni>-</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>6</Id>
+    <Title>آیین زندگی - اخلاق کاربردی</Title>
+    <CorrespondingTitleInDesUni>آیین زندگی - اخلاق کاربردی</CorrespondingTitleInDesUni>
+    <CodeInDesUni>1611007</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>7</Id>
+    <Title>عرفان عملی اسلامی</Title>
+    <CorrespondingTitleInDesUni>عرفان عملی اسلامی</CorrespondingTitleInDesUni>
+    <CodeInDesUni>-</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>8</Id>
+    <Title>انقلاب اسلامی ایران</Title>
+    <CorrespondingTitleInDesUni>انقلاب اسلامی ایران</CorrespondingTitleInDesUni>
+    <CodeInDesUni>1611009</CodeInDesUni>
+    <IsPassed>true</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>9</Id>
+    <Title>آشنایی با قانون اساسی جمهوری اسلامی ایران</Title>
+    <CorrespondingTitleInDesUni>آشنایی با قانون اساسی جمهوری اسلامی ایران</CorrespondingTitleInDesUni>
+    <CodeInDesUni>-</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>10</Id>
+    <Title>آشنایی با اندیشه سیاسی امام خمینی</Title>
+    <CorrespondingTitleInDesUni>آشنایی با اندیشه سیاسی امام خمینی</CorrespondingTitleInDesUni>
+    <CodeInDesUni>-</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>11</Id>
+    <Title>تاریخ فرهنگ و تمدن اسلامی</Title>
+    <CorrespondingTitleInDesUni>تاریخ فرهنگ و تمدن اسلامی</CorrespondingTitleInDesUni>
+    <CodeInDesUni>-</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>12</Id>
+    <Title>تاریخ تحلیل صدر اسلام</Title>
+    <CorrespondingTitleInDesUni>تاریخ تحلیل صدر اسلام</CorrespondingTitleInDesUni>
+    <CodeInDesUni>1611013</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>13</Id>
+    <Title>تاریخ امامت</Title>
+    <CorrespondingTitleInDesUni>تاریخ امامت</CorrespondingTitleInDesUni>
+    <CodeInDesUni>1611014</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>14</Id>
+    <Title>تفسیر موضوعی قرآن</Title>
+    <CorrespondingTitleInDesUni>تفسیر موضوعی قرآن</CorrespondingTitleInDesUni>
+    <CodeInDesUni>1611016</CodeInDesUni>
+    <IsPassed>true</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>15</Id>
+    <Title>تفسیر موضوعی نهج البلاغه</Title>
+    <CorrespondingTitleInDesUni>تفسیر موضوعی نهج البلاغه</CorrespondingTitleInDesUni>
+    <CodeInDesUni>1611017</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>16</Id>
+    <Title>زبان فارسی</Title>
+    <CorrespondingTitleInDesUni>زبان فارسی</CorrespondingTitleInDesUni>
+    <CodeInDesUni>1111017</CodeInDesUni>
+    <IsPassed>true</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>17</Id>
+    <Title>زبان انگلیسی</Title>
+    <CorrespondingTitleInDesUni>زبان انگلیسی</CorrespondingTitleInDesUni>
+    <CodeInDesUni>1111018</CodeInDesUni>
+    <IsPassed>true</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>18</Id>
+    <Title>تربیت بدنی یک</Title>
+    <CorrespondingTitleInDesUni>تربیت بدنی یک</CorrespondingTitleInDesUni>
+    <CodeInDesUni>1111037</CodeInDesUni>
+    <IsPassed>true</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>19</Id>
+    <Title>تربیت بدنی دو</Title>
+    <CorrespondingTitleInDesUni>تربیت بدنی دو</CorrespondingTitleInDesUni>
+    <CodeInDesUni>1111038</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>20</Id>
+    <Title>دانش خانواده و جمعیت</Title>
+    <CorrespondingTitleInDesUni>دانش خانواده و جمعیت</CorrespondingTitleInDesUni>
+    <CodeInDesUni>1611022</CodeInDesUni>
+    <IsPassed>true</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>21</Id>
+    <Title>ریاضی عمومی یک</Title>
+    <CorrespondingTitleInDesUni>ریاضی عمومی یک</CorrespondingTitleInDesUni>
+    <CodeInDesUni>1111001</CodeInDesUni>
+    <IsPassed>true</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>22</Id>
+    <Title>ریاضی عمومی دو</Title>
+    <CorrespondingTitleInDesUni>ریاضی عمومی دو</CorrespondingTitleInDesUni>
+    <CodeInDesUni>1111002</CodeInDesUni>
+    <IsPassed>true</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>23</Id>
+    <Title>فیزیک یک</Title>
+    <CorrespondingTitleInDesUni>فیزیک یک</CorrespondingTitleInDesUni>
+    <CodeInDesUni>1111003</CodeInDesUni>
+    <IsPassed>true</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>24</Id>
+    <Title>فیزیک دو</Title>
+    <CorrespondingTitleInDesUni>فیزیک دو</CorrespondingTitleInDesUni>
+    <CodeInDesUni>1111004</CodeInDesUni>
+    <IsPassed>true</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>25</Id>
+    <Title>آمار و احتمال مهندسی</Title>
+    <CorrespondingTitleInDesUni>آمار و احتمال مهندسی</CorrespondingTitleInDesUni>
+    <CodeInDesUni>1211036</CodeInDesUni>
+    <IsPassed>true</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>26</Id>
+    <Title>معادلات دیفرانسیل</Title>
+    <CorrespondingTitleInDesUni>معادلات دیفرانسیل</CorrespondingTitleInDesUni>
+    <CodeInDesUni>1111009</CodeInDesUni>
+    <IsPassed>true</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>27</Id>
+    <Title>کارگاه کامپیوتر</Title>
+    <CorrespondingTitleInDesUni>کارگاه کامپیوتر</CorrespondingTitleInDesUni>
+    <CodeInDesUni>1221048</CodeInDesUni>
+    <IsPassed>true</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>28</Id>
+    <Title>آزمایشگاه فیزیک دو</Title>
+    <CorrespondingTitleInDesUni>آزمایشگاه فیزیک دو</CorrespondingTitleInDesUni>
+    <CodeInDesUni>1111006</CodeInDesUni>
+    <IsPassed>true</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>29</Id>
+    <Title>مبانی کامپیوتر و برنامه سازی</Title>
+    <CorrespondingTitleInDesUni>مبانی کامپیوتر و برنامه سازی</CorrespondingTitleInDesUni>
+    <CodeInDesUni>1221046</CodeInDesUni>
+    <IsPassed>true</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>30</Id>
+    <Title>مدار های الکتریکی</Title>
+    <CorrespondingTitleInDesUni>مدار های الکتریکی</CorrespondingTitleInDesUni>
+    <CodeInDesUni>1221051</CodeInDesUni>
+    <IsPassed>true</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>31</Id>
+    <Title>ریاضیات گسسته</Title>
+    <CorrespondingTitleInDesUni>ریاضیات گسسته</CorrespondingTitleInDesUni>
+    <CodeInDesUni>1221047</CodeInDesUni>
+    <IsPassed>true</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>32</Id>
+    <Title>برنامه سازی پیشرفته</Title>
+    <CorrespondingTitleInDesUni>برنامه سازی پیشرفته</CorrespondingTitleInDesUni>
+    <CodeInDesUni>1221003</CodeInDesUni>
+    <IsPassed>true</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>33</Id>
+    <Title>ساختمان های داده</Title>
+    <CorrespondingTitleInDesUni>ساختمان های داده</CorrespondingTitleInDesUni>
+    <CodeInDesUni>1221005</CodeInDesUni>
+    <IsPassed>true</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>34</Id>
+    <Title>مدار های منطقی</Title>
+    <CorrespondingTitleInDesUni>مدار های منطقی</CorrespondingTitleInDesUni>
+    <CodeInDesUni>1221050</CodeInDesUni>
+    <IsPassed>true</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>35</Id>
+    <Title>نظریه زبان ها و ماشین ها</Title>
+    <CorrespondingTitleInDesUni>نظریه زبان ها و ماشین ها</CorrespondingTitleInDesUni>
+    <CodeInDesUni>1221009</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>36</Id>
+    <Title>زبان تخصصی</Title>
+    <CorrespondingTitleInDesUni>زبان تخصصی</CorrespondingTitleInDesUni>
+    <CodeInDesUni>1221031</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>37</Id>
+    <Title>روش پژوهش و ارايه</Title>
+    <CorrespondingTitleInDesUni>روش پژوهش و ارايه</CorrespondingTitleInDesUni>
+    <CodeInDesUni>1221058</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>38</Id>
+    <Title>ریاضیات مهندسی</Title>
+    <CorrespondingTitleInDesUni>ریاضیات مهندسی</CorrespondingTitleInDesUni>
+    <CodeInDesUni>1211014</CodeInDesUni>
+    <IsPassed>true</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>39</Id>
+    <Title>معماری کامپیوتر</Title>
+    <CorrespondingTitleInDesUni>معماری کامپیوتر</CorrespondingTitleInDesUni>
+    <CodeInDesUni>1221036</CodeInDesUni>
+    <IsPassed>true</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>40</Id>
+    <Title>سیستم های عامل</Title>
+    <CorrespondingTitleInDesUni>سیستم های عامل</CorrespondingTitleInDesUni>
+    <CodeInDesUni>1221012</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>41</Id>
+    <Title>طراحی الگوریتم ها</Title>
+    <CorrespondingTitleInDesUni>طراحی الگوریتم ها</CorrespondingTitleInDesUni>
+    <CodeInDesUni>1221008</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>42</Id>
+    <Title>طراحی کامپیوتری سیستم های دیجیتال</Title>
+    <CorrespondingTitleInDesUni>طراحی کامپیوتری سیستم های دیجیتال</CorrespondingTitleInDesUni>
+    <CodeInDesUni>1221052</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>43</Id>
+    <Title>سیگنال ها و سیستم ها</Title>
+    <CorrespondingTitleInDesUni>سیگنال ها و سیستم ها</CorrespondingTitleInDesUni>
+    <CodeInDesUni>1221024</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>44</Id>
+    <Title>ریزپردازنده و زبان اسمبلی</Title>
+    <CorrespondingTitleInDesUni>ریزپردازنده و زبان اسمبلی</CorrespondingTitleInDesUni>
+    <CodeInDesUni>1221053</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>45</Id>
+    <Title>شبکه های کامپیوتری</Title>
+    <CorrespondingTitleInDesUni>شبکه های کامپیوتری</CorrespondingTitleInDesUni>
+    <CodeInDesUni>1221013</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>46</Id>
+    <Title>هوش مصنوعی و سیستم ها خبره</Title>
+    <CorrespondingTitleInDesUni>هوش مصنوعی و سیستم ها خبره</CorrespondingTitleInDesUni>
+    <CodeInDesUni>1221054</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>47</Id>
+    <Title>اصول طراحی کامپایلر</Title>
+    <CorrespondingTitleInDesUni>اصول طراحی کامپایلر</CorrespondingTitleInDesUni>
+    <CodeInDesUni>1221055</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>48</Id>
+    <Title>آزمایشگاه سیستم های عامل</Title>
+    <CorrespondingTitleInDesUni>آزمایشگاه سیستم های عامل</CorrespondingTitleInDesUni>
+    <CodeInDesUni>1221056</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>49</Id>
+    <Title>آزمایشگاه مدارهای منطقی و معماری کامپیوتر</Title>
+    <CorrespondingTitleInDesUni>آزمایشگاه مدارهای منطقی و معماری کامپیوتر</CorrespondingTitleInDesUni>
+    <CodeInDesUni>1221057</CodeInDesUni>
+    <IsPassed>true</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>50</Id>
+    <Title>آزمایشگاه ریزپردازنده</Title>
+    <CorrespondingTitleInDesUni>آزمایشگاه ریزپردازنده</CorrespondingTitleInDesUni>
+    <CodeInDesUni>1221027</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>51</Id>
+    <Title>آزمایشگاه شبکه های کامپیوتری</Title>
+    <CorrespondingTitleInDesUni>آزمایشگاه شبکه های کامپیوتری</CorrespondingTitleInDesUni>
+    <CodeInDesUni>1221019</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>52</Id>
+    <Title>مدار های الکترونیکی</Title>
+    <CorrespondingTitleInDesUni>مدار های الکترونیکی</CorrespondingTitleInDesUni>
+    <CodeInDesUni>1221007</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>53</Id>
+    <Title>الکترونیک دیجیتال</Title>
+    <CorrespondingTitleInDesUni>الکترونیک دیجیتال</CorrespondingTitleInDesUni>
+    <CodeInDesUni>1221010</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>54</Id>
+    <Title>انتقال داده ها</Title>
+    <CorrespondingTitleInDesUni>انتقال داده ها</CorrespondingTitleInDesUni>
+    <CodeInDesUni>1221017</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>55</Id>
+    <Title>سیستم های کنترل خطی</Title>
+    <CorrespondingTitleInDesUni>سیستم های کنترل خطی</CorrespondingTitleInDesUni>
+    <CodeInDesUni>-</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>56</Id>
+    <Title>آزمایشگاه مدارهای الکترونیکی</Title>
+    <CorrespondingTitleInDesUni>آزمایشگاه مدارهای الکترونیکی</CorrespondingTitleInDesUni>
+    <CodeInDesUni>1221023</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>57</Id>
+    <Title>آزمایشگاه الکترونیک دیجیتال</Title>
+    <CorrespondingTitleInDesUni>آزمایشگاه الکترونیک دیجیتال</CorrespondingTitleInDesUni>
+    <CodeInDesUni>1221018</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>58</Id>
+    <Title>آزمایشگاه ابزارهای طراحی با کمک کامپیوتر</Title>
+    <CorrespondingTitleInDesUni>آزمایشگاه ابزارهای طراحی با کمک کامپیوتر</CorrespondingTitleInDesUni>
+    <CodeInDesUni>1221068</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>59</Id>
+    <Title>کارآموزی معماری سیستم ها</Title>
+    <CorrespondingTitleInDesUni>کارآموزی معماری سیستم ها</CorrespondingTitleInDesUni>
+    <CodeInDesUni>-</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>60</Id>
+    <Title>پروژه معماری کامپیوتر</Title>
+    <CorrespondingTitleInDesUni>پروژه معماری کامپیوتر</CorrespondingTitleInDesUni>
+    <CodeInDesUni>1221067</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>61</Id>
+    <Title>تحلیل و طراحی سیستم ها</Title>
+    <CorrespondingTitleInDesUni>تحلیل و طراحی سیستم ها</CorrespondingTitleInDesUni>
+    <CodeInDesUni>1221065</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>62</Id>
+    <Title>پایگاه داده ها</Title>
+    <CorrespondingTitleInDesUni>پایگاه داده ها</CorrespondingTitleInDesUni>
+    <CodeInDesUni>1221029</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>63</Id>
+    <Title>طراحی زبان های برنامه نویسی</Title>
+    <CorrespondingTitleInDesUni>طراحی زبان های برنامه نویسی</CorrespondingTitleInDesUni>
+    <CodeInDesUni>1221096</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>64</Id>
+    <Title>مهندسی نرم افزار</Title>
+    <CorrespondingTitleInDesUni>مهندسی نرم افزار</CorrespondingTitleInDesUni>
+    <CodeInDesUni>1221035</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>65</Id>
+    <Title>مهندسی اینترنت</Title>
+    <CorrespondingTitleInDesUni>مهندسی اینترنت</CorrespondingTitleInDesUni>
+    <CodeInDesUni>1221028</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>66</Id>
+    <Title>کارآموزی نرم افزار</Title>
+    <CorrespondingTitleInDesUni>کارآموزی نرم افزار</CorrespondingTitleInDesUni>
+    <CodeInDesUni>1221059</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>67</Id>
+    <Title>پروژه نرم افزار</Title>
+    <CorrespondingTitleInDesUni>پروژه نرم افزار</CorrespondingTitleInDesUni>
+    <CodeInDesUni>1221066</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>68</Id>
+    <Title>امنیت شبکه</Title>
+    <CorrespondingTitleInDesUni>امنیت شبکه</CorrespondingTitleInDesUni>
+    <CodeInDesUni>-</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>69</Id>
+    <Title>مبانی رایانش امن</Title>
+    <CorrespondingTitleInDesUni>مبانی رایانش امن</CorrespondingTitleInDesUni>
+    <CodeInDesUni>-</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>70</Id>
+    <Title>امنیت سیستم های پایه</Title>
+    <CorrespondingTitleInDesUni>امنیت سیستم های پایه</CorrespondingTitleInDesUni>
+    <CodeInDesUni>-</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>71</Id>
+    <Title>مدیریت امنیت اطلاعات</Title>
+    <CorrespondingTitleInDesUni>مدیریت امنیت اطلاعات</CorrespondingTitleInDesUni>
+    <CodeInDesUni>-</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>72</Id>
+    <Title>مبانی رمزنگاری</Title>
+    <CorrespondingTitleInDesUni>مبانی رمزنگاری</CorrespondingTitleInDesUni>
+    <CodeInDesUni>-</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>73</Id>
+    <Title>توسعه امن نرم افزار</Title>
+    <CorrespondingTitleInDesUni>توسعه امن نرم افزار</CorrespondingTitleInDesUni>
+    <CodeInDesUni>-</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>74</Id>
+    <Title>حقوق و ادله الکترونیکی در امنیت</Title>
+    <CorrespondingTitleInDesUni>حقوق و ادله الکترونیکی در امنیت</CorrespondingTitleInDesUni>
+    <CodeInDesUni>-</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>75</Id>
+    <Title>کارآموزی رایانش امن</Title>
+    <CorrespondingTitleInDesUni>کارآموزی رایانش امن</CorrespondingTitleInDesUni>
+    <CodeInDesUni>-</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>76</Id>
+    <Title>پروژه رایانش امن</Title>
+    <CorrespondingTitleInDesUni>پروژه رایانش امن</CorrespondingTitleInDesUni>
+    <CodeInDesUni>-</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>77</Id>
+    <Title>اصول فناوری اطلاعات</Title>
+    <CorrespondingTitleInDesUni>اصول فناوری اطلاعات</CorrespondingTitleInDesUni>
+    <CodeInDesUni>-</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>78</Id>
+    <Title>اصول مدیریت و برنامه ریزی راهبردی فناوری اطلاعات</Title>
+    <CorrespondingTitleInDesUni>اصول مدیریت و برنامه ریزی راهبردی فناوری اطلاعات</CorrespondingTitleInDesUni>
+    <CodeInDesUni>-</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>79</Id>
+    <Title>مدیریت پروژه های فناوری اطلاعات</Title>
+    <CorrespondingTitleInDesUni>مدیریت پروژه های فناوری اطلاعات</CorrespondingTitleInDesUni>
+    <CodeInDesUni>-</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>80</Id>
+    <Title>یکپارچه سازی کاربردهای سازمانی</Title>
+    <CorrespondingTitleInDesUni>یکپارچه سازی کاربردهای سازمانی</CorrespondingTitleInDesUni>
+    <CodeInDesUni>-</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>81</Id>
+    <Title>اقتصاد مهندسی</Title>
+    <CorrespondingTitleInDesUni>اقتصاد مهندسی</CorrespondingTitleInDesUni>
+    <CodeInDesUni>-</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>82</Id>
+    <Title>تجارت الکترونیکی</Title>
+    <CorrespondingTitleInDesUni>تجارت الکترونیکی</CorrespondingTitleInDesUni>
+    <CodeInDesUni>-</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>83</Id>
+    <Title>کارآموزی فناوری اطلاعات</Title>
+    <CorrespondingTitleInDesUni>کارآموزی فناوری اطلاعات</CorrespondingTitleInDesUni>
+    <CodeInDesUni>-</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>84</Id>
+    <Title>پروژه فناوری اطلاعات</Title>
+    <CorrespondingTitleInDesUni>پروژه فناوری اطلاعات</CorrespondingTitleInDesUni>
+    <CodeInDesUni>-</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>85</Id>
+    <Title>هم طراحی سخت افزار - نرم افزار</Title>
+    <CorrespondingTitleInDesUni>هم طراحی سخت افزار - نرم افزار</CorrespondingTitleInDesUni>
+    <CodeInDesUni>1221097</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>86</Id>
+    <Title>سیستم های نهفته و بیدرنگ</Title>
+    <CorrespondingTitleInDesUni>سیستم های نهفته و بیدرنگ</CorrespondingTitleInDesUni>
+    <CodeInDesUni>1221098</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>87</Id>
+    <Title>طراحی سیستم های مجتمع پر تراکم</Title>
+    <CorrespondingTitleInDesUni>طراحی سیستم های مجتمع پر تراکم</CorrespondingTitleInDesUni>
+    <CodeInDesUni>1221016</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>88</Id>
+    <Title>معماری شتاب دهنده های شی گرا</Title>
+    <CorrespondingTitleInDesUni>معماری شتاب دهنده های شی گرا</CorrespondingTitleInDesUni>
+    <CodeInDesUni>-</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>89</Id>
+    <Title>طراحی مدارهای واسط</Title>
+    <CorrespondingTitleInDesUni>طراحی مدارهای واسط</CorrespondingTitleInDesUni>
+    <CodeInDesUni>1221034</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>90</Id>
+    <Title>طراحی مدارهای دیجیتال فرکانس بالا</Title>
+    <CorrespondingTitleInDesUni>طراحی مدارهای دیجیتال فرکانس بالا</CorrespondingTitleInDesUni>
+    <CodeInDesUni>-</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>91</Id>
+    <Title>مبانی شبکه های بی سیم</Title>
+    <CorrespondingTitleInDesUni>مبانی شبکه های بی سیم</CorrespondingTitleInDesUni>
+    <CodeInDesUni>-</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>92</Id>
+    <Title>مبانی هوش محاسباتی</Title>
+    <CorrespondingTitleInDesUni>مبانی هوش محاسباتی</CorrespondingTitleInDesUni>
+    <CodeInDesUni>-</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>93</Id>
+    <Title>مبانی بینایی کامپیوتر</Title>
+    <CorrespondingTitleInDesUni>مبانی بینایی کامپیوتر</CorrespondingTitleInDesUni>
+    <CodeInDesUni>-</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>94</Id>
+    <Title>مبانی پردازش زبان و گفتار</Title>
+    <CorrespondingTitleInDesUni>مبانی پردازش زبان و گفتار</CorrespondingTitleInDesUni>
+    <CodeInDesUni>-</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>95</Id>
+    <Title>اصول رباتیکز</Title>
+    <CorrespondingTitleInDesUni>اصول رباتیکز</CorrespondingTitleInDesUni>
+    <CodeInDesUni>-</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>96</Id>
+    <Title>تعامل انسان و کامپیوتر</Title>
+    <CorrespondingTitleInDesUni>تعامل انسان و کامپیوتر</CorrespondingTitleInDesUni>
+    <CodeInDesUni>-</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>97</Id>
+    <Title>آزمون نرم افزار</Title>
+    <CorrespondingTitleInDesUni>آزمون نرم افزار</CorrespondingTitleInDesUni>
+    <CodeInDesUni>-</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>98</Id>
+    <Title>روش های رسمی در مهندسی نرم افزار</Title>
+    <CorrespondingTitleInDesUni>روش های رسمی در مهندسی نرم افزار</CorrespondingTitleInDesUni>
+    <CodeInDesUni>-</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>99</Id>
+    <Title>طراحی شی گرا سیستم ها</Title>
+    <CorrespondingTitleInDesUni>طراحی شی گرا سیستم ها</CorrespondingTitleInDesUni>
+    <CodeInDesUni>-</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>100</Id>
+    <Title>نظریه و الگوریتم های گراف</Title>
+    <CorrespondingTitleInDesUni>نظریه و الگوریتم های گراف</CorrespondingTitleInDesUni>
+    <CodeInDesUni>1221101</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>101</Id>
+    <Title>نظریه محاسبات</Title>
+    <CorrespondingTitleInDesUni>نظریه محاسبات</CorrespondingTitleInDesUni>
+    <CodeInDesUni>-</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>102</Id>
+    <Title>مبانی نظریه بازی ها</Title>
+    <CorrespondingTitleInDesUni>مبانی نظریه بازی ها</CorrespondingTitleInDesUni>
+    <CodeInDesUni>1221103</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>103</Id>
+    <Title>الگوریتم های پیشرفته</Title>
+    <CorrespondingTitleInDesUni>الگوريتمهاي پيشرفته كارشناسي</CorrespondingTitleInDesUni>
+    <CodeInDesUni>1221104</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>104</Id>
+    <Title>مقدمه ای بر مسابقات برنامه نویسی</Title>
+    <CorrespondingTitleInDesUni>مقدمه ای بر مسابقات برنامه نویسی</CorrespondingTitleInDesUni>
+    <CodeInDesUni>1221105</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>105</Id>
+    <Title>منطق در علوم و مهندسی کامپیوتر</Title>
+    <CorrespondingTitleInDesUni>منطق در علوم و مهندسی کامپیوتر</CorrespondingTitleInDesUni>
+    <CodeInDesUni>-</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>106</Id>
+    <Title>سیستم های چندرسانه ای</Title>
+    <CorrespondingTitleInDesUni>سیستم های چندرسانه ای</CorrespondingTitleInDesUni>
+    <CodeInDesUni>-</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>107</Id>
+    <Title>طراحی بازی های کامپیوتری</Title>
+    <CorrespondingTitleInDesUni>طراحی بازی های کامپیوتری</CorrespondingTitleInDesUni>
+    <CodeInDesUni>-</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>108</Id>
+    <Title>گرافیک کامپیوتری</Title>
+    <CorrespondingTitleInDesUni>گرافیک کامپیوتری</CorrespondingTitleInDesUni>
+    <CodeInDesUni>-</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>109</Id>
+    <Title>مبانی پویانمایی کامپیوتری</Title>
+    <CorrespondingTitleInDesUni>مبانی پویانمایی کامپیوتری</CorrespondingTitleInDesUni>
+    <CodeInDesUni>-</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>110</Id>
+    <Title>پیاده سازی سیستم پایگاه داده</Title>
+    <CorrespondingTitleInDesUni>پیاده سازی سیستم پایگاه داده</CorrespondingTitleInDesUni>
+    <CodeInDesUni>-</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>111</Id>
+    <Title>مبانی داده کاوی</Title>
+    <CorrespondingTitleInDesUni>مبانی داده کاوی</CorrespondingTitleInDesUni>
+    <CodeInDesUni>-</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>112</Id>
+    <Title>مبانی بازیابی اطلاعات و جستجوی وب</Title>
+    <CorrespondingTitleInDesUni>مبانی بازیابی اطلاعات و جستجوی وب</CorrespondingTitleInDesUni>
+    <CodeInDesUni>-</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>113</Id>
+    <Title>سیستم های اطلاعات مدیریت</Title>
+    <CorrespondingTitleInDesUni>سیستم های اطلاعات مدیریت</CorrespondingTitleInDesUni>
+    <CodeInDesUni>-</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>114</Id>
+    <Title>یک درس از کارشناسی ارشد رشته مهندسی کامپیوتر1</Title>
+    <CorrespondingTitleInDesUni>یک درس از کارشناسی ارشد رشته مهندسی کامپیوتر1</CorrespondingTitleInDesUni>
+    <CodeInDesUni>-</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>115</Id>
+    <Title>مباحث ویژه 1</Title>
+    <CorrespondingTitleInDesUni>مباحث ویژه 1</CorrespondingTitleInDesUni>
+    <CodeInDesUni>-</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>116</Id>
+    <Title>مباحث ویژه 2</Title>
+    <CorrespondingTitleInDesUni>مباحث ویژه 2</CorrespondingTitleInDesUni>
+    <CodeInDesUni>-</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>117</Id>
+    <Title>1یک درس از دوره کارشناسی رشته های دیگر</Title>
+    <CorrespondingTitleInDesUni>اقتصاد مهندسی (برق)</CorrespondingTitleInDesUni>
+    <CodeInDesUni>1211043</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>118</Id>
+    <Title>نمونه سازی سیستم های پیچیده سخت افزاری - نرم افزاری</Title>
+    <CorrespondingTitleInDesUni>نمونه سازی سیستم های پیچیده سخت افزاری - نرم افزاری</CorrespondingTitleInDesUni>
+    <CodeInDesUni>-</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>119</Id>
+    <Title>مقدمه ای بر علم اعصاب</Title>
+    <CorrespondingTitleInDesUni>مقدمه ای بر علم اعصاب</CorrespondingTitleInDesUni>
+    <CodeInDesUni>-</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>120</Id>
+    <Title>آزمایشگاه مهندسی نرم افزار</Title>
+    <CorrespondingTitleInDesUni>آزمایشگاه مهندسی نرم افزار</CorrespondingTitleInDesUni>
+    <CodeInDesUni>-</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>121</Id>
+    <Title>آزمایشگاه اصول طراحی کامپایلر</Title>
+    <CorrespondingTitleInDesUni>آزمایشگاه اصول طراحی کامپایلر</CorrespondingTitleInDesUni>
+    <CodeInDesUni>-</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>122</Id>
+    <Title>آزمایشگاه پایگاه داده</Title>
+    <CorrespondingTitleInDesUni>آزمایشگاه پایگاه داده</CorrespondingTitleInDesUni>
+    <CodeInDesUni>1221107</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>123</Id>
+    <Title>آزمایشگاه مدار های الکتریکی</Title>
+    <CorrespondingTitleInDesUni>آزمایشگاه مدار های الکتریکی</CorrespondingTitleInDesUni>
+    <CodeInDesUni>1221026</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>124</Id>
+    <Title>آزمایشگاه مدار های واسط</Title>
+    <CorrespondingTitleInDesUni>آزمایشگاه مدار های واسط</CorrespondingTitleInDesUni>
+    <CodeInDesUni>-</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>125</Id>
+    <Title>آزمایشگاه اصول رباتیکز</Title>
+    <CorrespondingTitleInDesUni>آزمایشگاه اصول رباتیکز</CorrespondingTitleInDesUni>
+    <CodeInDesUni>-</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>126</Id>
+    <Title>آزمایشگاه گرافیک کامپیوتری</Title>
+    <CorrespondingTitleInDesUni>آزمایشگاه گرافیک کامپیوتری</CorrespondingTitleInDesUni>
+    <CodeInDesUni>-</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>127</Id>
+    <Title>آزمایشگاه بازی های کامپیوتری</Title>
+    <CorrespondingTitleInDesUni>آزمایشگاه بازی های کامپیوتری</CorrespondingTitleInDesUni>
+    <CodeInDesUni>-</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>128</Id>
+    <Title>آزمایشگاه واقعیت مجازی</Title>
+    <CorrespondingTitleInDesUni>آزمایشگاه واقعیت مجازی</CorrespondingTitleInDesUni>
+    <CodeInDesUni>-</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>129</Id>
+    <Title>آزمایشگاه امنیت شبکه</Title>
+    <CorrespondingTitleInDesUni>آزمایشگاه امنیت شبکه</CorrespondingTitleInDesUni>
+    <CodeInDesUni>-</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>130</Id>
+    <Title>کارگاه ساخت ربات</Title>
+    <CorrespondingTitleInDesUni>کارگاه ساخت ربات</CorrespondingTitleInDesUni>
+    <CodeInDesUni>-</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>131</Id>
+    <Title>کارگاه برنامه نویسی مت لب</Title>
+    <CorrespondingTitleInDesUni>کارگاه برنامه نویسی مت لب</CorrespondingTitleInDesUni>
+    <CodeInDesUni>1221108</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>132</Id>
+    <Title>آزمایشگاه اتوماسیون صنعتی</Title>
+    <CorrespondingTitleInDesUni>آزمایشگاه اتوماسیون صنعتی</CorrespondingTitleInDesUni>
+    <CodeInDesUni>-</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>133</Id>
+    <Title>آزمایشگاه سیستم های کنترل خطی</Title>
+    <CorrespondingTitleInDesUni>آزمایشگاه سیستم های کنترل خطی</CorrespondingTitleInDesUni>
+    <CodeInDesUni>-</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>134</Id>
+    <Title>سیستم های انوماسیون صنعتی</Title>
+    <CorrespondingTitleInDesUni>سیستم های انوماسیون صنعتی</CorrespondingTitleInDesUni>
+    <CodeInDesUni>-</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>135</Id>
+    <Title>یک درس از کارشناسی ارشد رشته مهندسی کامپیوتر2</Title>
+    <CorrespondingTitleInDesUni>اقتصاد مهندسی (صنایع)</CorrespondingTitleInDesUni>
+    <CodeInDesUni>2121008</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>136</Id>
+    <Title>یک درس از کارشناسی ارشد رشته مهندسی کامپیوتر3</Title>
+    <CorrespondingTitleInDesUni>یک درس از کارشناسی ارشد رشته مهندسی کامپیوتر3</CorrespondingTitleInDesUni>
+    <CodeInDesUni>-</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>137</Id>
+    <Title>یک درس از دوره کارشناسی رشته های دیگر2</Title>
+    <CorrespondingTitleInDesUni>یک درس از دوره کارشناسی رشته های دیگر2</CorrespondingTitleInDesUni>
+    <CodeInDesUni>-</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+  <CourseInformation>
+    <Id>138</Id>
+    <Title>یک درس از دوره کارشناسی رشته های دیگر3</Title>
+    <CorrespondingTitleInDesUni>یک درس از دوره کارشناسی رشته های دیگر3</CorrespondingTitleInDesUni>
+    <CodeInDesUni>-</CodeInDesUni>
+    <IsPassed>false</IsPassed>
+    <NumberOfFailed>0</NumberOfFailed>
+  </CourseInformation>
+</ArrayOfCourseInformation>
