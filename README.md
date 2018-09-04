@@ -8,10 +8,10 @@
 
 <p align="right">برای آنکه راحت تر بتوانید با طریقه کار کردن این نرم افزار آشنا شوید یک ویدیو آموزشی بدین منظور آماده کرده ایم شما می توانید با کلیک بر روی لینک مربوطه آن را دریافت کنید </p>
 
+[<p align="right">ویدیو آموزشی</p>](https://raw.githubusercontent.com/tataiee1375/Harif/master/Videos/Tutorial.mp4)
+
 ## <p align="right">: توضیحات بیشتر</p>
 <p align="right">تحلیل پروژه حدودا یک ماه و پیاده سازی نسخه آزمایشی آن نیز حداودا یک ماه دیگر به طول انجامید که روی هم رفته حدودا دو ماه برای انجام این پروژه زمان صرف شد</p>
-
-[<p align="right">ویدیو آموزشی</p>](https://raw.githubusercontent.com/tataiee1375/Harif/master/Videos/Tutorial.mp4)
 
 ## <p align="right">: برای برنامه نویسان</p>
 
