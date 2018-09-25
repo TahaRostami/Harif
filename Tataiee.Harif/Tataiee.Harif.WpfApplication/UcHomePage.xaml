@@ -1,0 +1,55 @@
+﻿<UserControl x:Class="Tataiee.Harif.WpfApplication.UcHomePage"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Tataiee.Harif.WpfApplication"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300"
+             
+               xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        TextElement.FontWeight="Regular"
+        TextElement.FontSize="13"
+        TextOptions.TextFormattingMode="Ideal" 
+        TextOptions.TextRenderingMode="Auto"        
+        Background="Transparent"
+        FontFamily="{DynamicResource MaterialDesignFont}"
+             
+             >
+    <Grid>
+        <StackPanel FlowDirection="RightToLeft" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="75,80,80,50">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="75"/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Image HorizontalAlignment="Left"  Source="images/icon.png" />
+                <TextBlock Grid.Column="1" VerticalAlignment="Center" FontSize="36" Margin="8,0">نسخه آزمایشی سامانه حریف</TextBlock>
+            </Grid>
+            <WrapPanel Margin="15,35,0,0">
+                <StackPanel>
+                    <TextBlock Margin="65,55,0,0" FontSize="22" FontWeight="Medium">معرفی</TextBlock>
+                    <TextBlock Margin="75,15,0,0" FontSize="18" Width="320" LineHeight="30"  TextWrapping="Wrap">حریف یک برنامه کاربردی است که بعنوان پروژه کارشناسی روی آن کار کردم. این نرم افزار می تواند فرایند انتخاب واحد شما را با پیشنهاد دادن برنامه های مناسب بصورت خودکار تسهیل بخشد.</TextBlock>
+                    <Button Click="Button_Click" Style="{StaticResource MaterialDesignRaisedLightButton}" Width="Auto" HorizontalAlignment="Left" Margin="75,50" ToolTip="کپی آدرس ایمیل" >tataiee1375@gmail.com</Button>
+                </StackPanel>
+
+                <StackPanel Margin="30,0">
+                    <TextBlock Margin="65,55,0,0" FontSize="22" FontWeight="Medium">طریقه استفاده</TextBlock>
+                    <TextBlock Margin="75,15,0,0" FontSize="18" Width="320" LineHeight="30"  TextWrapping="Wrap">برای آنکه راحت تر بتوانید با طریقه کار کردن این نرم افزار آشنا شوید ویدیو آموزشی کوتاهی بدین منظور آماده کرده ایم شما می توانید با کلیک بر روی لینک مربوطه به صفحه مربوط به این ویدیو منتقل شوید.</TextBlock>
+                    <Button Click="Button_Click_1"  Style="{StaticResource MaterialDesignRaisedLightButton}" Width="150" HorizontalAlignment="Left"  Margin="75,54" ToolTip="انتقال به صفحه مربوط به ویدیو">ویدیو</Button>
+                </StackPanel>
+
+                <StackPanel Margin="30,0">
+                    <TextBlock Margin="65,55,0,0" FontSize="22" FontWeight="Medium">برای برنامه نویسان</TextBlock>
+                    <TextBlock Margin="75,15,0,0" FontSize="18" Width="320" LineHeight="30"  TextWrapping="Wrap">این نسخه بعنوان نمونه ای آزمایشی توسعه داده شده است و کد برنامه بصورت متن باز در دسترس قرار داده شده است.چنانچه تمایل داشتید برای کار خود از جزییات بیشتری مطلع شوید می توانید با ایمیل زیر با من در ارتباط باشید.</TextBlock>
+                    <Button Click="Button_Click_2" Style="{StaticResource MaterialDesignRaisedLightButton}" Width="150" HorizontalAlignment="Left" Margin="75,25" ToolTip="انتقال به صفحه مربوط به سورس کد پروژه" >سورس کد پروژه</Button>
+                </StackPanel>
+
+            </WrapPanel>
+
+           
+
+        </StackPanel>
+    </Grid>
+</UserControl>
