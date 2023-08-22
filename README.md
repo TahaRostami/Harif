@@ -12,6 +12,8 @@ To tackle all of the mentioned challenges, we propose an automatic course-select
 
 ## Some Statistics
 
-- analysis and proposing method: 1 month
-- implementation and evaluation: 1 month
-- documentation: 1 month
+Analysis and proposing method: 1 month
+
+Implementation and evaluation: 1 month
+
+Documentation: 1 month
