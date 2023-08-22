@@ -9,3 +9,9 @@
 <p align="justify">
 To tackle all of the mentioned challenges, we propose an automatic course-selection system that can suggest classes to take, considering all rules and student preferences. In Harif, we create a directed graph in which each node represents a course, and each edge represents a set of constraints (e.g., requisite/prerequisite relationship between courses, some features from the student history, etc.) that must be satisfied if the student wants to take it. Additionally, in Harif, we make a list of other constraints. In particular, for each class, characteristics such as the available capacity of the class, its dates and times, the date and time of the final exam, etc., are added to the list of constraints that must be satisfied. Also, we consider three types of student preferences: Must, MustNot, and Preferred. We add the Must and MustNot preferences of the student to the list of constraints that must be satisfied. Afterwards, Harif searches for satisfactory solutions (i.e., each solution is a set of classes to pick for that semester satisfying all the specified constraints) in a predefined time. Each solution is scored and sorted according to the Preferred preferences of the student. Finally,  when the student selects one of the suggested solutions, Harif adopts the topological sort to give the student an acceptable permutation of the classes he wishes to pick in the coming semester.
 </p>
+
+## Some Statistics
+
+- # analysis and proposing method: 1 month
+- # implementation and evaluation: 1 month
+- # documentation: 1 month
