@@ -1,5 +1,9 @@
 # Harif
 
+
+ **Note**
+To potential supervisors, committee members, hiring managers, and others who are reviewing this repository to assess my implementation skills, I highly recommend visiting my website. In the 'NOTES' section, you can find a dedicated section titled 'Potential Questions,' where I have provided the necessary context for a more comprehensive assessment. [MyWebsite](https://taharostami.github.io/notes/)
+
 ## Problem definition
 
 <p align="justify"> Each university in Iran provides a list of available classes for the coming semester weeks before the start of that semester. Then each student must choose some classes satisfying all rules obliged by the ministry of science and the university. Different students might have different preferences or tend to adopt different strategies for their educational careers. With this respect, each student must manually check available classes and select some according to his goals. However, this process usually is a time-consuming and laborious task due to several options and rules the students have to consider. Unfortunately, a student might want to pick a class. However, the class capacity will suddenly be filled due to the real-time nature of the course-selection process, in which several students are selecting classes simultaneously. In this case, the student must adjust his decisions as soon as possible and select other available classes. </p>
