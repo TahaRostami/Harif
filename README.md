@@ -1,5 +1,8 @@
 # Harif
 
+## Tutorial
+
+This YouTube tutorial provides a brief overview of how to use Harif. You can watch it here: [Harif Tutorial](https://www.youtube.com/watch?v=lsiGuLEkKgM)
 
 ## Problem definition
 
